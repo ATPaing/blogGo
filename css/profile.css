@@ -1,0 +1,116 @@
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90vw;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-info h2 {
+    color: #333;
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    color: #777;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.profile-details li {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.profile-details strong {
+    color: #333;
+}
+
+.profile-info h3 {
+    color: #333;
+    margin: 20px 0 10px;
+    font-size: 18px;
+}
+
+.contributions-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.contributions-list li {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.comments {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment-text {
+    color: #555;
+    font-size: 14px;
+    margin: 0;
+}
+
+.comment-meta {
+    color: #777;
+    font-size: 12px;
+    margin: 5px 0 0;
+}
+
+.comment-date,
+.comment-blog {
+    font-weight: bold;
+}

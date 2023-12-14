@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em var(--grid-layout-padding);
+    background-color: #FADEFF;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.footer-left p{
+    font-size: 0.75rem;
+    color: black;
+}
+.links{
+    display: flex;
+    gap: 1em;
+}
+.copyright{
+    font-size: 0.75rem;
+}

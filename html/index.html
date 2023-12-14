@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | BlogGo</title>
+    <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png">
+
+    <!-- link for font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CSS files for project -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- variable css file  -->
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- nav css -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <!-- hero css -->
+    <link rel="stylesheet" href="../css/hero.css">
+    <!-- tech blog index css  -->
+    <link rel="stylesheet" href="../css/index-tech.css">
+    <!-- tech js index css  -->
+    <link rel="stylesheet" href="../css/index-js.css">
+    <!-- newletter css  -->
+    <link rel="stylesheet" href="../css/index-newsLetter.css">
+    <!-- footer css  -->
+    <link rel="stylesheet" href="../css/footer.css">
+
+</head>
+<body>
+    <nav>
+        <a href="./index.html" class="nav_left">
+            <img  src="../resources/images/blogGo logo.png" alt="blogGo">
+        </a>
+        <ul class="nav_center">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="categories dropdown">
+                <a href="#">Categories</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 10l5 5m0 0l5-5"/></svg>
+                <div class="dropdown-content">
+                    <a href="./category.html?type=technology" id="tech_nav" class="drop-down-btn">Tech</a>
+                    <a href="./category.html?type=movie" id="movie_nav" class="drop-down-btn">Movie</a>
+                    <a href="./category.html?type=html" class="drop-down-btn">HTML</a>
+                    <a href="./category.html?type=css" class="drop-down-btn">CSS</a>
+                    <a href="./category.html?type=js" class="drop-down-btn">JS</a>
+                </div>
+            </li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+        <div class="nav_right">
+            <div class="nav_right__search">
+                <img src="../resources/images/search icon.png" alt="search icon"/>
+                <input type="text" aria-label="search blogs" placeholder="serach blogs"> 
+            </div>
+            <div class="nav_right__sign-up">
+                <a href="./login.html">Log in</a>
+            </div>
+        </div>
+    </nav>
+    <section id="hero" class="hero">
+        <div id="hero_content" class="hero_content">
+            <h1  class=" hero_content_0_h1 slide_effect">Unlock the Power of <span class="hero_content_0_span"> Technology</span> through Blogs</h1>
+            <p  class=" hero_content_0_desc slide_effect">Explore a vast collection of technology-focused blogs and articles that delve into the realms of innovation, gadgets, AI, and more. Expand your tech horizons and stay up-to-date with the ever-evolving digital landscape. </p>
+            <div id="hero_0_btn" class="hero_content_0_btn slide_effect">
+                <a href="./category.html?type=technology">Start your tech journey</a>
+            </div>
+        </div>
+
+        <div class="carousel_btn">
+            <div class="carousel_indicator carousel_indicator_active"></div>
+            <div class="carousel_indicator "></div>
+            <div class="carousel_indicator"></div>
+        </div>
+    </section>
+    <section class="tech">
+        <h1 class="tech-title">Dive into Tech</h1>
+        <div class="tech-blogs">
+            <div id="tech-left" class="tech-left">
+                
+            </div>
+            <div id="tech-right" class="tech-right">
+                
+            </div>
+        </div>
+        <div class="view-more-btn">
+            <a href="./category.html?type=technology">View more article</a>
+        </div>
+    </section>
+    <section class="js">
+        <h1 class="js-title">Learn JS!</h1>
+        <div class="js-blogs">
+            <div id="js-left" class="js-left">
+                
+            </div>
+            <div id="js-right" class="js-right">
+                
+            </div>
+        </div>
+        <div class="view-more-btn">
+            <a href="./category.html?type=js">View more article</a>
+        </div>
+    </section>
+    <section class="news-letter">
+        <h2>Join Our Thriving Community</h2>
+        <p>Fuel your curiosity and stay ahead of the curve with our powerhouse newsletter. Join our community of passionate readers who crave inspiration, knowledge, and thought-provoking content. Get ready to explore captivating blogs, gain valuable insights, and unlock a world of limitless possibilities. Subscribe now and elevate your reading experience to new heights</p>
+        <div class="new-letter_subscribe">
+            <input type="mail" aria-label="news letter email input" placeholder="example@gmail.com">
+            <button class="send-btn">
+                Send
+            </button>
+        </div>
+        <img src="../resources/images/newsletter-bg.png" alt="newsletter background" aria-hidden="true">
+    </section>
+    <footer>
+        <div class="footer-left">
+            <p>Follow us on social media</p>
+            <div class="links">
+                <a href="#" aria-label="youtube link">
+                    <img src="../resources/images/youtube.png" alt="you tube">
+                </a>
+                <a href="#" aria-label="facebook link">
+                    <img src="../resources/images/facebook.png" alt="facebook">
+                </a>
+                <a href="#" aria-label="twitter link">
+                    <img src="../resources/images/twitter.png" alt="twitter">
+                </a>
+                <a href="#" aria-label="instagram link">
+                    <img src="../resources/images/instagram.png" alt="instagram">
+                </a>  
+            </div>
+        </div>
+        <p class="copyright">Copyright © 2023 blogGo. All right reserved</p>
+    </footer>
+</body>
+    <script src="../js/nav.js"></script>
+    <script src="../js/hero.js"></script>
+    <script src="../js/tech-index.js"></script>
+    <script src="../js/js-index.js"></script>
+</html>

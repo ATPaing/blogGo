@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | BlogGo</title>
+    <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png">
+
+    <!-- link for font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CSS files for project -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- variable css file  -->
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- sign up link -->
+    <link rel="stylesheet" href="../css/signup.css">
+    <!-- nav css -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <!-- footer css  -->
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html" class="nav_left">
+            <img  src="../resources/images/blogGo logo.png" alt="blogGo">
+        </a>
+        <ul class="nav_center">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="categories dropdown">
+                <a href="#">Categories</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 10l5 5m0 0l5-5"/></svg>
+                <div class="dropdown-content">
+                    <a href="./category.html?type=technology" id="tech_nav" class="drop-down-btn">Tech</a>
+                    <a href="./category.html?type=movie" id="movie_nav" class="drop-down-btn">Movie</a>
+                    <a href="./category.html?type=html" class="drop-down-btn">HTML</a>
+                    <a href="./category.html?type=css" class="drop-down-btn">CSS</a>
+                    <a href="./category.html?type=js" class="drop-down-btn">JS</a>
+                </div>
+            </li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+        <div class="nav_right">
+            <div class="nav_right__search">
+                <img src="../resources/images/search icon.png" alt="search icon"/>
+                <input type="text" aria-label="search blogs" placeholder="serach blogs"> 
+            </div>
+            <div class="nav_right__sign-up">
+                <a href="./login.html">Log in</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <div class="form-checkbox">
+                <input type="checkbox" id="terms-checkbox">
+                <label for="terms-checkbox">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit">Sign Up</button>
+                <div class="form-links">
+                <a href="./login.html">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-left">
+            <p>Follow us on social media</p>
+            <div class="links">
+                <a href="#" aria-label="youtube link">
+                    <img src="../resources/images/youtube.png" alt="you tube">
+                </a>
+                <a href="#" aria-label="facebook link">
+                    <img src="../resources/images/facebook.png" alt="facebook">
+                </a>
+                <a href="#" aria-label="twitter link">
+                    <img src="../resources/images/twitter.png" alt="twitter">
+                </a>
+                <a href="#" aria-label="instagram link">
+                    <img src="../resources/images/instagram.png" alt="instagram">
+                </a>  
+            </div>
+        </div>
+        <p class="copyright">Copyright © 2023 blogGo. All right reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+:root{
+    --grid-layout-padding: 5rem;
+    --hero-slide-primary-clr: white;
+    --hero-slide-secondary-clr: black;
+    --hero-slide-one-clr: linear-gradient(90.51deg, #2697FF 0.44%, #53D6FF 55.86%);
+    --hero-slide-one-btn-clr: #1394bb;
+    --hero-slide-two-clr: #ff5858;
+    --hero-slide-third-clr: #FF00FF;
+    --category-btn-clr: #2196F3;
+    --category-bg-clr: linear-gradient(179.62deg, #fabf9d 6.45%, #ce7613 99.67%);
+    --category-title-clr: #e9af1e;
+}

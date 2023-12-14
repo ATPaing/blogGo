@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | BlogGo</title>
+    <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png">
+    
+    <!-- link for font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- CSS files for project -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- variable css file  -->
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- nav css -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <!-- profile css  -->
+    <link rel="stylesheet" href="../css/profile.css">
+    <!-- footer css  -->
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html" class="nav_left">
+            <img  src="../resources/images/blogGo logo.png" alt="blogGo">
+        </a>
+        <ul class="nav_center">
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li class="categories dropdown">
+                <a href="#">Categories</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m7 10l5 5m0 0l5-5"/></svg>
+                <div class="dropdown-content">
+                    <a href="./category.html?type=technology" id="tech_nav" class="drop-down-btn">Tech</a>
+                    <a href="./category.html?type=movie" id="movie_nav" class="drop-down-btn">Movie</a>
+                    <a href="./category.html?type=html" class="drop-down-btn">HTML</a>
+                    <a href="./category.html?type=css" class="drop-down-btn">CSS</a>
+                    <a href="./category.html?type=js" class="drop-down-btn">JS</a>
+                </div>
+            </li>
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+        <div class="nav_right">
+            <div class="nav_right__search">
+                <img src="../resources/images/search icon.png" alt="search icon"/>
+                <input type="text" aria-label="search blogs" placeholder="serach blogs"> 
+            </div>
+            <div class="nav_right__sign-up">
+                <a href="./login.html">Log in</a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>User Profile</h1>
+    </header>
+    <main>
+        <div class="profile-card">
+            <div class="profile-img">
+            <img src="../resources/images/avatars/Group 29.png" alt="User Avatar" />
+            </div>
+            <div class="profile-info">
+            <h2>John Doe</h2>
+            <p>Web Developer</p>
+            <ul class="profile-details">
+                <li><strong>Email:</strong> johndoe@example.com</li>
+                <li><strong>Location:</strong> New York, USA</li>
+                <li>
+                <strong>Website:</strong>
+                <a href="https://www.example.com">www.example.com</a>
+                </li>
+            </ul>
+            <h3>About Me</h3>
+            <p>
+                <p>I'm a passionate web developer with a love for creating engaging and user-friendly websites. With several years of experience in the industry, I specialize in front-end development and enjoy transforming design concepts into functional and responsive web experiences.</p>
+                <p>When I'm not coding, you can find me exploring the latest web development trends, capturing moments through photography, or embarking on new adventures through traveling. I'm also an avid reader and enjoy diving into thought-provoking books that broaden my perspectives.</p>
+            </p>
+            <h3>Contributions</h3>
+            <ul class="contributions-list">
+                <li>Active participant in web development forums, providing helpful answers and solutions to fellow developers.</li>
+                <li>Regularly leave constructive comments on popular web development blogs, sparking discussions and sharing insights.</li>
+                <li>Contributed code snippets and tutorials to open-source projects on GitHub, helping other developers learn and grow.</li>
+            </ul>
+            <h3>Recent Comments</h3>
+            <div class="comments">
+                <div class="comment">
+                    <p class="comment-text">Great article! I found your explanations very clear and helpful. Keep up the good work!</p>
+                    <p class="comment-meta">Posted on <span class="comment-date">June 10, 2023</span> in <span class="comment-blog">JS</span></p>
+                </div>
+                <div class="comment">
+                    <p class="comment-text">I had a similar issue last week, and your solution worked perfectly for me. Thanks for sharing!</p>
+                    <p class="comment-meta">Posted on <span class="comment-date">June 8, 2023</span> in <span class="comment-blog">CSS</span></p>
+                </div>
+            </div>
+            <h3>Interests</h3>
+            <ul class="interests-list">
+                <li>Web Development</li>
+                <li>Photography</li>
+                <li>Traveling</li>
+                <li>Reading</li>
+            </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <p>Follow us on social media</p>
+            <div class="links">
+                <a href="#" aria-label="youtube link">
+                    <img src="../resources/images/youtube.png" alt="you tube">
+                </a>
+                <a href="#" aria-label="facebook link">
+                    <img src="../resources/images/facebook.png" alt="facebook">
+                </a>
+                <a href="#" aria-label="twitter link">
+                    <img src="../resources/images/twitter.png" alt="twitter">
+                </a>
+                <a href="#" aria-label="instagram link">
+                    <img src="../resources/images/instagram.png" alt="instagram">
+                </a>  
+            </div>
+        </div>
+        <p class="copyright">Copyright © 2023 blogGo. All right reserved</p>
+    </footer>
+</body>
+</html>
