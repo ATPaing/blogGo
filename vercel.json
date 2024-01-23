@@ -1,0 +1,14 @@
+{
+    "routes": [
+        { "src": "/", "dest": "/html/index.html" },
+        { "src": "/index.html", "dest": "/html/index.html" },
+        { "src": "/about.html", "dest": "/html/about.html" },
+        { "src": "/category.html", "dest": "/html/category.html" },
+        { "src": "/contact.html", "dest": "/html/contact.html" },
+        { "src": "/login.html", "dest": "/html/login.html" },
+        { "src": "/profile.html", "dest": "/html/profile.html" },
+        { "src": "/signup.html", "dest": "/html/signup.html" },
+        { "src": "/view.html", "dest": "/html/view.html" }
+    ]
+}
+
